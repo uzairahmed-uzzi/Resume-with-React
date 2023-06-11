@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.sidebar{
+    width:20vw;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: rgb(238, 239, 239);
+    padding: 0 0.5%;
+
+    border-right: 1px solid black;
+}
+.profile_section{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid black;
+    
+}
+.coverpic{
+    width: 100%;
+    height: 40%;
+    background-image: url("https://wallpapercave.com/dwp2x/wp7718000.jpg");
+    background-size: cover;
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+h3{
+    font-size: 1.5em;
+}
+.image{
+    width: 45%;
+    height: 90%;
+    border-radius: 50%;
+    padding: 1%;
+    border-style: outset;
+    border: 2px solid green;
+    position: relative;
+    top: 55%;
+    left:20%;
+    right: 50%;
+}
+.profile_body{
+    margin:25% 2% 0 2%;
+}
+.title{
+    margin: 0 0 0 15%;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+#span{
+    /* color: rgb(76,145,150); */
+    color: green;
+}
+.profile_body p{
+    margin-top: 3%;
+    text-align:center;
+    letter-spacing:1px;
+    font-size: 13px;
+    font-weight: 900;
+    color: rgb(80,80,80);
+
+}
+ul{
+    margin-top: 5%;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.facebook,.instagram,.github,.whatsapp,.linkedin{
+    transition: 0.4s;
+}
+.facebook:hover{
+    color: rgb(6, 86, 178);
+    
+}
+.instagram:hover{
+    color:rgb(255, 88, 210);
+    
+
+}
+.whatsapp:hover{
+    color:green;
+    
+
+}
+.linkedin:hover{
+    color: rgb(20, 129, 254);
+    
+
+
+}
+.github:hover{
+    color: rgb(160, 0, 147);
+    
+
+}
