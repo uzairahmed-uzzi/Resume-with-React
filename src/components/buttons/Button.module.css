@@ -1,0 +1,8 @@
+.buttonDesign{
+    width: 20%;
+    height: 40px;
+    padding: 2%;
+    background-color: aquamarine;
+    /* font-family: 'Kanit', sans-serif; */
+    font-family: 'Righteous', cursive;
+}

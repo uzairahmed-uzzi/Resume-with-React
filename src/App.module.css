@@ -5,12 +5,14 @@
 body{
   
   background-color: rgb(229, 230, 230);
+  height: 100vh;
 }
 h2{
   font-size: 2.5em;
 }
 .container{
   display: flex;
+  height: 100vh;
   
 }
 .item1{
@@ -25,6 +27,7 @@ h2{
   width: 100%;
 }
 .profile_container{
+  overflow-y: scroll;
   
   display: flex;
   flex-wrap: wrap;

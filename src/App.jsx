@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import style from './App.module.css'
 import SideBar from './components/sidebar/sidebar'
 import Profile from './components/profile/profile'
